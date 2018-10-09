@@ -1,0 +1,79 @@
+html {
+  font-size: 14px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+ul {
+  list-style: none;
+  padding-left: 10px;
+}
+
+input[type=checkbox] {
+  +label {
+    border: 1px solid gray;
+    border-radius: 3px;
+    width: 15px;
+    height: 15px;
+    position: relative;
+    i {
+      font-size: 10px;
+      position: absolute;
+      left: 1px;
+      display: none;
+    }
+  }
+  &:checked+label i {
+    display: block;
+  }
+}
+
+input[type=checkbox],
+input[type=radio] {
+  display: none;
+}
+
+.nav,
+.pagination,
+.carousel,
+.panel-title a {
+  cursor: pointer;
+}
+
+a,
+a * {
+  border: 0;
+  text-decoration: none;
+  &:hover {
+    border: 0;
+    text-decoration: none;
+  }
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 400;
+}
+
+h1 {
+  font-family: $highlight-font;
+  font-size: 2rem;
+  color: $main-color;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+.p-5 {
+  padding: 5px;
+}

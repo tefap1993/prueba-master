@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed");
+html {
+  font-size: 14px; }
+
+img {
+  max-width: 100%;
+  max-height: 100%; }
+
+ul {
+  list-style: none;
+  padding-left: 10px; }
+
+input[type=checkbox] + label {
+  border: 1px solid gray;
+  border-radius: 3px;
+  width: 15px;
+  height: 15px;
+  position: relative; }
+  input[type=checkbox] + label i {
+    font-size: 10px;
+    position: absolute;
+    left: 1px;
+    display: none; }
+input[type=checkbox]:checked + label i {
+  display: block; }
+
+input[type=checkbox],
+input[type=radio] {
+  display: none; }
+
+.nav,
+.pagination,
+.carousel,
+.panel-title a {
+  cursor: pointer; }
+
+a,
+a * {
+  border: 0;
+  text-decoration: none; }
+  a:hover,
+  a *:hover {
+    border: 0;
+    text-decoration: none; }
+
+h1,
+h2,
+h3 {
+  font-weight: 400; }
+
+h1 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 2rem;
+  color: #002464; }
+
+h2 {
+  font-size: 20px;
+  margin: 0; }
+
+h3 {
+  font-size: 18px; }
+
+.p-5 {
+  padding: 5px; }
+
+.card {
+  border: 1px solid gray;
+  background-color: #f1f1f1;
+  color: gray; }
+  .card-header {
+    padding: 20px;
+    border-bottom: 1px solid gray; }
+  .card-body {
+    padding: 20px; }
+  .card-inner {
+    background-color: #ffffff; }
+
+.navigation-bar {
+  background-color: #002464;
+  padding: 20px;
+  margin-bottom: 20px; }
+  .navigation-bar__logo {
+    height: 45px;
+    background-image: url("../img/logo-sprite.png");
+    background-repeat: no-repeat;
+    width: 240px;
+    background-size: 440px; }
+  .navigation-bar__links a {
+    color: #ffffff; }
+  .navigation-bar__button {
+    border: 0; }
+    .navigation-bar__button .icon-bar {
+      background-color: #ffffff;
+      width: 30px; }
+      .navigation-bar__button .icon-bar + .icon-bar {
+        margin-top: 8px; }
+
+.conditions {
+  margin-bottom: 30px; }
+
+.item-table {
+  font-family: "Arial", sans-serif; }
+  .item-table__thead {
+    background-color: #f1f1f1; }
+
+.form__item {
+  margin-bottom: 10px; }
+
+/*# sourceMappingURL=main.css.map */

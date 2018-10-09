@@ -1,0 +1,25 @@
+.navigation-bar {
+  background-color: $main-color;
+  padding: 20px;
+  margin-bottom: 20px;
+  &__logo {
+    height: 45px;
+    background-image: url('../img/logo-sprite.png');
+    background-repeat: no-repeat;
+    width: 240px;
+    background-size: 440px;
+  }
+  &__links a {
+    color: #ffffff;
+  }
+  &__button { 
+    border: 0;
+    .icon-bar {
+      background-color: #ffffff;
+      width: 30px;
+      & + .icon-bar {
+        margin-top: 8px;
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+$until-big-screen-breakpoint: 'all and (max-width: '+$max-width+')';
+$big-screen-breakpoint: 'all and (min-width: '+($max-width + 1)+')';
+$main-desktop-breakpoint: 'all and (min-width: 1024px)';
+$main-mobile-breakpoint: 'all and (max-width: 1023px)';
+$small-mobile-breakpoint: 'all and (max-width: 600px)';
+$diminute-mobile-breakpoint: 'all and (max-width: 365px)';
+$big-mobile-breakpoint: 'all and (max-width: 1023px) and (min-width: 601px)';
+$from-big-mobile-breakpoint: 'all and (min-width: 601px)';
+$landscape-mobile: 'all and (orientation: landscape) and (max-height:600px) and (max-width: 1023px)';
+$landscape-small-mobile: 'all and (orientation: landscape) and (max-height:380px) and (max-width: 1023px)';
+$special-breakpoint: 'all and (min-width: 601px) and (max-width:700px)';

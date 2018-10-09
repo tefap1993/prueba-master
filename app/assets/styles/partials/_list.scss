@@ -1,0 +1,11 @@
+.item-table {
+  font-family: $table-font;
+  &__thead {
+    background-color: #f1f1f1;
+  }
+}
+.form{
+  &__item{
+    margin-bottom: 10px;
+  }
+}
